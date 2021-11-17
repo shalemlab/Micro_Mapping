@@ -14,3 +14,13 @@ The demo file shows the mapping pipeline, that contains 4 main steps.
    Objective function is a standard method of least squares
 
 Demo file works with demo data, soon to be uploaded.
+
+Dependencies
+
+numpy
+pandas
+tqdm
+matplotlib
+scipy
+pillow
+pims_nd2
