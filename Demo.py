@@ -22,8 +22,8 @@ M_10X, Tile_List_10X = mf.Arrange_Tiles(path_10X, plot_location = False)
 M_40X, Tile_List_40X = mf.Arrange_Tiles(path_40X, plot_location = False)
 
 # 3. Make sure the tile are continous, as they may need transposition or flipping
-M_10X = mf.Check_Tile_Configuration('D:/Mapping/Try_2/10X', M_10X, file_type='nd2', plot_align = False, print_config = False, plot_tiles = False)
-M_40X = mf.Check_Tile_Configuration('D:/Mapping/Try_2/40X', M_40X, file_type='nd2', plot_align = False, print_config = False, plot_tiles = False)
+M_10X = mf.Check_Tile_Configuration(path_10X, M_10X, file_type='nd2', plot_align = False, print_config = False, plot_tiles = False)
+M_40X = mf.Check_Tile_Configuration(path_40X, M_40X, file_type='nd2', plot_align = False, print_config = False, plot_tiles = False)
 
 # 4. Calculate mapping degrees of freedom (DOF)
 P_10X = mf.Local_to_Global(p_10X, M_10X, [h_10X, w_10X])
