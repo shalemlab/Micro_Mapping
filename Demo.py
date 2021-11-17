@@ -1,7 +1,7 @@
 import Mapping_Functions as mf
 
-path_10X = 'D:/Mapping/Try_2/10X'
-path_40X = 'D:/Mapping/Try_2/40X'
+path_10X = 'D:/Mapping/Example_1/10X'
+path_40X = 'D:/Mapping/Example_1/40X'
 
 # Define target points. Minimum of three points is advised
 p_10X = [
